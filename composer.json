@@ -1,0 +1,27 @@
+{
+    "name": "MLS/Capsule-php-sdk",
+    "description": "Active Record style PHP SDK for CapsuleCRM",
+    "keywords": ["Active Record", "sdk", "Capsule"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Momodou Samateh",
+            "email": "samateh719@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MLS\\Capsule\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~4.0",
+        "illuminate/support": "~4.1",
+        "siriusphp/validation": "~1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9"
+    }
+}
